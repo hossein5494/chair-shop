@@ -1,0 +1,17 @@
+{
+  "name": "fainal-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "project": "postcss ./src/css/tailwind.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^3.4.17"
+  }
+}
